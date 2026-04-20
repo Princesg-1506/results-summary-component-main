@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="json" href="data.json" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <style>
+      .attribution {
+        font-size: 16px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="card">
+        <h3 class="med-text">Your Result</h3>
+
+        <div class="score-circle">
+          <p class="xlg-text">76</p>
+          <p class="sm-text" id="score-circle-p">of 100</p>
+        </div>
+
+        <h3 class="lg-text">Great</h3>
+        <p class="sm-text" id="result-card-p">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="med-text">Summary</h3>
+
+        <div class="item reaction">
+          <span><img src="icon-reaction.svg" /></span>
+          <span class="sm-text">Reaction</span>
+          <div class="score-unit">
+            <span data-score="80" class="med-text">80</span
+            ><span class="sm-text all-over">/100</span>
+          </div>
+        </div>
+
+        <div class="item memory">
+          <span><img src="icon-memory.svg" /></span>
+          <span class="sm-text">Memory</span>
+          <div class="score-unit">
+            <span data-score="92" class="med-text">92</span
+            ><span class="sm-text all-over">/100</span>
+          </div>
+        </div>
+
+        <div class="item verbal">
+          <span><img src="icon-verbal.svg" /></span>
+          <span class="sm-text">Verbal</span>
+          <div class="score-unit">
+            <span data-score="61" class="med-text">61</span
+            ><span class="sm-text all-over">/100</span>
+          </div>
+        </div>
+
+        <div class="item visual">
+          <span><img src="icon-visual.svg" /></span>
+          <span class="sm-text">Visual</span>
+          <div class="score-unit">
+            <span data-score="72" class="med-text">72</span
+            ><span class="sm-text all-over">/100</span>
+          </div>
+        </div>
+
+        <button class="continue-btn" type="button">Continue</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Princesg-1506">Mastersolution Tech</a>.
+      </div>
+    </footer>
+
+    <!-- <nav class="nav">
+  <ul>
+    <li class="menu-item">
+      Products
+      <ul class="dropdown">
+        <li>Phone</li>
+        <li>Laptop</li>
+      </ul>
+    </li>
+  </ul>
+</nav> -->
+  </body>
+</html>
