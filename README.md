@@ -44,7 +44,7 @@ It is a solution to a Frontend Mentor challenge aimed at improving front-end dev
 
 ## 📷 Screenshot
 
-<img width="1277" height="908" alt="image" src="design/preview.jpg">
+<img width="1277" height="908" alt="image" src="design/desktop preview.jpg">
 
 ## 👨‍💻 Author
 
