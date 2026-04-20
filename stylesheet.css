@@ -6,7 +6,7 @@
 
 body {
   background-color: var(--Pale-blue);
-  font-family: "Hanken Grotesk";
+  font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
   /* color: #333; */
   font-size: 18px;
   min-height: 100vh;
